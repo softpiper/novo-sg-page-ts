@@ -1,4 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -7,7 +8,14 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Script src="assets/js/jquery-3.6.0.min.js"></Script>
+        <Script src="/assets/js/isotope.pkgd.min.js"></Script>
+        <Script src="/assets/js/jquery.magnific-popup.min.js"></Script>
+        <Script src="/assets/js/chart.min.js"></Script>
+        <Script src="/assets/js/swiper-bundle.min.js"></Script>
+        <Script src="/assets/js/bootstrap.bundle.min.js"></Script>
+        <Script src="/assets/js/custom.js"></Script>
       </body>
     </Html>
-  )
+  );
 }
