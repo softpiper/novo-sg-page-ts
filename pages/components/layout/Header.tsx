@@ -1,5 +1,5 @@
+/* eslint-disable */
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
 import { useRouter } from 'next/router';
 const Header = () => {
@@ -10,7 +10,8 @@ const Header = () => {
 
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-dark py-3 py-lg-0 border-bottom">
-        <Link className="site-logo navbar-brand" href="/" rel="home">
+        
+        <a className="site-logo navbar-brand" href="/" rel="home">
           <Image
             className="logo-dark"
             src="/assets/images/novo-logo.png"
@@ -25,7 +26,7 @@ const Header = () => {
             height={70}
             alt="Investment Experts"
           />
-        </Link>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -54,34 +55,34 @@ const Header = () => {
             </div>
             <ul className="navbar-nav ms-lg-auto">
               <li className="nav-item dropdown position-relative">
-                <Link className={router.pathname === "/" ? "nav-link active" : "nav-link"} href="/" style={{color:"darkgreen"}}>
+                <a className={router.pathname === "/" ? "nav-a active" : "nav-a"} href="/" style={{color:"darkgreen"}}>
                   Home
-                </Link>
+                </a>
                
  
               </li>
               <li className="nav-item dropdown">
-                <Link className={router.pathname === "/company" ? "nav-link active" : "nav-link"} href="/company" style={{color:"darkgreen"}}>
+                <a className={router.pathname === "/company" ? "nav-a active" : "nav-a"} href="/company" style={{color:"darkgreen"}}>
                   Company
-                </Link>
+                </a>
           
               </li>
               <li className="nav-item dropdown">
-              <Link className={router.pathname === "/services" ? "nav-link active" : "nav-link"} href="/services" style={{color:"darkgreen"}}>
+              <a className={router.pathname === "/services" ? "nav-a active" : "nav-a"} href="/services" style={{color:"darkgreen"}}>
                   Services
-                </Link>
+                </a>
 
               </li>
               <li className="nav-item dropdown">
-              <Link className={router.pathname === "/partners" ? "nav-link active" : "nav-link"} href="/partners" style={{color:"darkgreen"}}>
+              <a className={router.pathname === "/partners" ? "nav-a active" : "nav-a"} href="/partners" style={{color:"darkgreen"}}>
                   Partners
-                </Link>
+                </a>
 
               </li>
               <li className="nav-item dropdown">
-              <Link className={router.pathname === "/contact" ? "nav-link active" : "nav-link"} href="/contact" style={{color:"darkgreen"}}>
+              <a className={router.pathname === "/contact" ? "nav-a active" : "nav-a"} href="/contact" style={{color:"darkgreen"}}>
                   Contact
-                </Link>
+                </a>
 
               </li>
 
