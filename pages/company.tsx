@@ -4,9 +4,9 @@ import Wrapper from "./components/layout/Wrapper";
 import { Inter, Roboto, Ubuntu } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const company = () => {
   return (
@@ -35,11 +35,12 @@ const company = () => {
           <div className="row gx-5 gy-30">
             <div className="col-lg-12">
               <p>
-                Pte Ltd was established in 2023, as a dry bulk ship
-                operating/consultancy company based in Singapore. Our aim is to
-                become a leading dry bulk vessel operator/consultancy company,
-                serving cargo, owners and charterers across the globe.
+                Novo Shipping Pte Ltd was established in 2023 as a dry bulk ship
+                operator company based in Singapore. Our aim is to become a
+                trusted dry bulk business partner for serving cargo owners, ship
+                owners, and charterers across the globe.
               </p>
+              
               <div className="block-quote py-30 my-5">
                 <svg
                   version="1.1"
@@ -85,10 +86,10 @@ const company = () => {
                   </g>
                 </svg>
                 <p className="fst-italic">
-                  We believe in long term partnership with our customers. We try
-                  to understand our customer requirements by establishing and
-                  keeping a close contact with them and provide them with
-                  value-added cost-effective solutions.
+                  We believe in long-term partnerships with our customers. We
+                  always try to understand and satisfy our customers by
+                  establishing close contact with them and providing value-added
+                  cost-effective solutions.
                 </p>
               </div>
 
@@ -108,7 +109,7 @@ const company = () => {
                         <h4 className=" text-uppercase">Vision</h4>
                       </div>
                       <p style={{ color: "white", fontSize: "14px" }}>
-                        Be the Global Shipping Leader
+                      Be the Global Shipping Trusted Business Partner.
                       </p>
                     </div>
                   </div>

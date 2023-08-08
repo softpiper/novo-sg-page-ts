@@ -3,7 +3,7 @@ import React from 'react'
 
 const WorkWithUs = () => {
   return (
-    <section className="bg-secondary">
+    <section className="bg-secondary m-2">
     <div className="container">
       <div className="text-white text-center py-60">
         {/* <p className="small text-uppercase fw-bold lh-lg letter-spacing-lg">
