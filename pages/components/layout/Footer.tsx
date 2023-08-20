@@ -11,14 +11,14 @@ const Footer = () => {
       <div className="container">
         <div className="row g-4">
           <div className="col-lg-6 col-12">
-            <p style={{color:"white", fontWeight:500, }}>
-              Pte Ltd was established in 2023, as a dry bulk ship
-              operating/consultancy company based in Singapore. Our aim is to
-              become a leading dry bulk vessel operator/consultancy company,
-              serving cargo, owners and charterers across the globe.
+            <p style={{ color: "white", fontWeight: 500 }}>
+              Novo Shipping Pte Ltd was established in 2023 as a dry bulk ship
+              operator company based in Singapore. Our aim is to become a
+              trusted dry bulk business partner for serving cargo owners, ship
+              owners, and charterers across the globe.
             </p>
           </div>
-          <div className="col-lg-3 col-6">
+          <div className="col-lg-2 col-6">
             <div className="footer-links">
               <h6 className="mb-4 fw-semibold text-white">USEFUL LINKS</h6>
               <ul className="list-unstyled d-grid gap-1">
@@ -61,7 +61,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-6">
+          <div className="col-lg-4 col-6">
             <h6 className="mb-4 fw-semibold text-white">GET IN TOUCH</h6>
             <ul className="list-unstyled ps-0 d-grid gap-2">
               <li>
@@ -101,7 +101,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-     
         </div>
       </div>
       <div className="copyright bg-dark">
