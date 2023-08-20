@@ -21,7 +21,7 @@ const Services = () => {
         <div className="square-menu position-relative w-100 h-100">
           <div className="figure-block position-relative d-grid gap-10 text-white">
             <span>
-              <AiOutlineTool style={{ fontSize: "50px" }} />
+              <RiShipLine style={{ fontSize: "50px" }} />
             </span>
             <h5 className="small text-uppercase">Chartering & Operation </h5>
           </div>
@@ -36,7 +36,7 @@ const Services = () => {
         <div className="square-menu position-relative w-100 h-100">
           <div className="figure-block position-relative d-grid gap-10 text-white">
             <span>
-              <RiShip2Line style={{ fontSize: "50px" }} />
+              <MdManageAccounts style={{ fontSize: "50px" }} />
             </span>
             <h5 className="small text-uppercase">Commercial Management </h5>
           </div>
@@ -51,7 +51,7 @@ const Services = () => {
         <div className="square-menu position-relative w-100 h-100">
           <div className="figure-block position-relative d-grid gap-10 text-white">
             <span>
-              <MdManageAccounts style={{ fontSize: "50px" }} />
+              <AiOutlineShoppingCart style={{ fontSize: "50px" }} />
             </span>
             <h5 className="small text-uppercase">Sale and Purchase</h5>
           </div>
@@ -66,7 +66,7 @@ const Services = () => {
         <div className="square-menu position-relative w-100 h-100">
           <div className="figure-block position-relative d-grid gap-10 text-white">
             <span>
-              <AiOutlineSetting style={{ fontSize: "50px" }} />
+              <RiShip2Line style={{ fontSize: "50px" }} />
             </span>
             <h5 className="small text-uppercase">Bunker Supply </h5>
           </div>
